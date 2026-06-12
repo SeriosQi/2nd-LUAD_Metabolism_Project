@@ -1,0 +1,34 @@
+# Raw / large data files
+data/*
+!data/.gitkeep
+*.tsv
+*.tsv.gz
+*.txt.gz
+*.csv.gz
+*.gz
+*.tar
+*.tar.gz
+*.zip
+*.bam
+*.maf.gz
+
+# GDC download artifacts
+GDCdata/
+MANIFEST.txt
+*.gdc_download.log
+
+# R / Python cache
+.Rhistory
+.RData
+.Rproj.user
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
