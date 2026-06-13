@@ -1,6 +1,9 @@
 # Raw / large data files
 data/*
 !data/.gitkeep
+Task1_TCGA_Bulk/data/*
+!Task1_TCGA_Bulk/data/.gitkeep
+**/data/download.log
 *.tsv
 *.tsv.gz
 *.txt.gz
