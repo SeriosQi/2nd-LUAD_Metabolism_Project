@@ -3,8 +3,10 @@ data/*
 !data/.gitkeep
 Task1_TCGA_Bulk/data/*
 !Task1_TCGA_Bulk/data/.gitkeep
+Task1_TCGA_Bulk/logs/
 **/data/download.log
 *.tsv
+!Task1_TCGA_Bulk/results/*.tsv
 *.tsv.gz
 *.txt.gz
 *.csv.gz
